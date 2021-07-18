@@ -1,0 +1,40 @@
+body {
+      background: #0fdefa;
+}
+
+aside {
+    float:left;
+    background: #07f74b;
+    width :20%;
+    padding:2.5%;
+    height:100vh;
+    color: #000;
+    border-right: 5px solid blue;
+ }
+
+aside img{
+     width: 70px;
+     float: left;
+ }
+
+aside .logo{
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: +15px;
+
+}
+aside h3 {
+    position:relative;
+    margin-top: 35px;
+    top: 35x;
+    width:20px;
+    height:50px
+}
+aside ul{list-style: none;}
+aside ul li {
+    color: #000;
+    display: block;
+    margin-top: 20px;
+}
