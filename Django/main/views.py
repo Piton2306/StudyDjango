@@ -1,13 +1,10 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
 
 # Create your views here.
 def index(request):
-    return HttpResponse("<button><u><h1>Приверка работы<h1><u><button>"
-                        )
+    return render(request, 'main/index.html')
 
 
 def about(request):
-    return HttpResponse("<Страница про нас>")
-
+    return render(request, 'main/about.html')
