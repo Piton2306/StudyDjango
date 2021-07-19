@@ -17,8 +17,8 @@
         <span class="logo">Test Django</span>
         <h3>Навигация</h3>
         <ul>
-            <a href=""><li><i class ="fas fa-home"></i>Главная страница</li></a>
-            <a href=""><li><i class="fa fa-users"></i> Про нас</li></a>
+            <a href="{% url 'home'%}"><li><i class ="fas fa-home"></i>Главная страница</li></a>
+            <a href="{% url 'about'%}"><li><i class="fa fa-users"></i> Про нас</li></a>
             <a href=""><li><i class="fa fa-address-book"></i> Контакты</li></a>
         </ul>
 

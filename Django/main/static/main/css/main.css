@@ -4,7 +4,7 @@ body {
 
 aside {
     float:left;
-    background: #07f74b;
+    background: #07f74b8c;
     width :20%;
     padding:2.5%;
     height:100vh;
@@ -37,4 +37,20 @@ aside ul li {
     color: #000;
     display: block;
     margin-top: 20px;
+    transition: transform .6s ease;
 }
+aside ul li:hover, aside ul a{
+color: #fff;
+text-decoration: none;
+transform: scale(1.05);}
+
+main .feature{
+float: left;
+color: #fff;
+margin-top: 50px;
+text-align: center;
+width:75%
+}
+main .feature h1{font-size: 50px}
+
+main .feature p{max-width: 400px; margin: 20px auto}
