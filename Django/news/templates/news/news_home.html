@@ -4,17 +4,18 @@
 <div class='feature'>
     <h1>{{ title }}</h1>
     <p>Новости на сайте</p>
-    <button class="btn btn-primary">На страницу</button>
-    {% for el in values %}
-        {%if el == 'Some' %}
-            {% filter upper %}
-                <p>{{ el }}</p>
-    {% endfilter %}
+        {% if news %}
+        {% for el in news %}
+        <div class = "alert">
+            <h3>{{ el.title }}</h3>
+            <p>{{ el.anons }}</p>
+            <p>{{el.ful_text}}<p>
+            <p>{{el.data}}</p>
+                </div>
+            {% endfor  %}
+        {% else %}
+            <p>У вас нет записей!</p>
         {% endif %}
-    {% endfor %}
-
-    {% for el in obj %}
-     <p> {{el}} <p>
-    {% endfor %}
+        {# Комментарий #}
 </div>
 {% endblock %}

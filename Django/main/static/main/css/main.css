@@ -46,7 +46,7 @@ transform: scale(1.05);}
 
 main .feature{
 float: left;
-color: #fff;
+color: #000000;
 margin-top: 50px;
 text-align: center;
 width:75%
@@ -54,3 +54,8 @@ width:75%
 main .feature h1{font-size: 50px}
 
 main .feature p{max-width: 400px; margin: 20px auto}
+
+form {margin_left;
+width: 500px;
+margin_top: 50px;}
+
